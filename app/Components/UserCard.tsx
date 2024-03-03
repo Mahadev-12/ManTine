@@ -44,8 +44,7 @@ const UserCard: React.FC<UserCardProps> = ({ user, onDelete }) => {
           </Flex>
           <div my={10} style={{ width: '100%', textAlign: 'center', marginTop: 10, marginBottom: 10}}>
             <Flex 
-      justify="flex-start"
-      align="flex-start"
+      justify="center"
       >
             <Text weight={500}>{user.name}</Text>
             {isFollowed && <IconStar size={16} style={{ marginLeft: 5 }} />}
